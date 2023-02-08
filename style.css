@@ -6,13 +6,15 @@
 .container {
     display: grid;
     justify-content: center;
-    margin-top: 120px;
+   
+    /* margin-top: 20px; */
 }
 .überraschung {
     display: grid;
     grid-template-columns: 240px 240px;
     grid-template-rows: 240px 240px;
-}
+    position: relative;
+  }
 
 .box-1 {
     background-color: steelblue;
@@ -52,6 +54,8 @@
     font-size: 60px;
     z-index: -1;
     line-height: 480px;
+    position: absolute;
+    left: 42rem;
   }
 
   .container:hover .box-1 {
